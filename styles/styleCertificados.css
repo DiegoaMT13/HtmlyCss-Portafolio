@@ -53,6 +53,9 @@ body{
     
 
 }
+.posición{
+    margin: 1% 5%;
+}
 .Titulo-pricipal{
     color: var(--color-terciario);
 }
@@ -195,7 +198,9 @@ img{
         height:30px ;
         padding: 2% 0% 0% 0%
     }
-   
+    .posición{
+        margin: 1% 7%;
+    }
 
 
 
