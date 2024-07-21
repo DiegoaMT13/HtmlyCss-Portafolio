@@ -1,0 +1,222 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/* Automatizar actualizaciones de color y fuentes */
+:root{
+    --color-primario:white;
+    --color-segundario:#6D6E71;
+    --color-terciario:#c09e39;
+    --color-cuarto:#928764;
+    
+
+
+    --fuente-monserat: "Montserrat", sans-serif;
+    --fuente-korona: "Krona One", sans-serif;
+
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    
+    }
+    
+    
+    body{
+        /* height: 100vh; */
+        background-color: var(--color-segundario);
+        color: var(--color-primario);
+        box-sizing: border-box;
+    
+    }
+    
+    
+    .header{
+        padding: 2% 0% 0% 10%;
+    
+    }
+    .header_menu{
+        display: flex;
+        gap: 80px;
+    
+    
+    }
+    .header_menu img{
+        float: left;
+        width: 4%;
+        height:4% ;
+        padding: 2% 0% 0% 5%;
+
+    }
+    
+    .haedre_menu_link{
+        font-family: var(--fuente-monserat);
+        font-size: 2rem;
+        font-family: 600;
+        color: var(--color-primario);
+        text-decoration: none;
+        
+    
+    }
+
+    
+    
+    .presentación{
+    
+        display: flex; 
+        align-items: center;
+        /* margin: 10% 15%; */
+        padding: 8% 10% ;
+    }
+    .texto-presentacion{
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    
+    .Titulo-pricipal{
+        color: var(--color-terciario);
+    }
+    
+    .titulop1{
+        font-size: 2rem;
+        font-family: var(--fuente-korona);
+        text-align: center;
+        
+    
+    }
+    .contenidop{
+        font-size: 1.5rem;
+        font-family: var(--fuente-monserat);
+        text-align: left;
+    }
+    .presentacion-enlaces{
+        display: flex;
+        justify-content:space-between ;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+    .sudtitulo{
+        font-family: var(--fuente-korona);
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    
+    /* botones */
+    .link-url{
+        width: 60%;
+        /* background-color: #c09e39; */
+        text-align: center;
+        padding: 20px 0;
+        border-radius: 10px;
+        font-family: var(--fuente-monserat);
+        font-size: 1.5rem;
+        font-family: 600;
+        text-decoration: none;
+        color: var(--color-primario);
+        border: 5px ridge var(--color-terciario) ;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .link-url:hover{
+        background-color: var(--color-cuarto);
+    }
+    .imagenc{
+        position: relative;
+        top: 10px; /* ajustar los valores para mover la imagen */
+        left: 30px;
+        width: auto;
+        height: 600px;
+        border-radius: 25%;
+        margin: 0%;
+        border:2px solid var(--color-terciario);
+        display: block;
+    }
+    .footer{
+        display: flex;
+        text-align:center;
+        background-color: #928764;
+        padding: 24px;
+        color: var(--color-primario);
+        text-align: center;
+        font-family: var(--fuente-monserat);
+        font-size: 1.5rem;
+        font-weight: 400;
+        padding: 1% 4% 1% 20%;
+     
+    }
+    .link{
+        display: flex;
+        text-align:center;
+        gap: 10px;
+       
+    }
+    
+    .link a img{
+        float: left;
+        width: 30px;
+        height:30px ;
+        padding: 2% 0% 0% 22%;
+        
+        
+        
+        }
+       
+    /* Esto es para que la pantalla de la página se adapte hasta un celular */
+    
+    @media(max-width:1100px){
+        .header{
+            padding: 10%;
+        }
+        .header_menu{
+            justify-content: center;
+        }
+    
+        .presentación{
+            flex-direction: column-reverse;
+            padding:5%;
+            gap: 10px;
+        }
+        .texto-presentacion{
+            width:auto;
+    
+        }
+        .imagenc{
+            width: auto;
+            height: 30%;
+            align-self:flex-start;
+            margin: 10%;
+          
+        }
+        .footer{
+        
+            padding: 20px;
+            color: var(--color-primario);
+            text-align: center;
+            font-family: var(--fuente-monserat);
+          
+         
+        }
+        .link{
+            display: flex;
+    
+        }
+        .link a img{
+            float: left;
+            width: 30px;
+            height:30px ;
+            padding: 2% 0% 0% 0%
+        }
+       
+
+    
+    
+    
+}
