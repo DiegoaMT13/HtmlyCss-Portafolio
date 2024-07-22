@@ -43,7 +43,7 @@
     }
     .header_menu{
         display: flex;
-        gap: 80px;
+        gap: 70px;
     
     
     }
@@ -61,6 +61,7 @@
         font-family: 600;
         color: var(--color-primario);
         text-decoration: none;
+        margin: 1% 0%;
         
     
     }

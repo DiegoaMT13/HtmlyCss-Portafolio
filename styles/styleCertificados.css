@@ -32,16 +32,17 @@ body{
 
 }
 .header{
-    padding: 2% 0% 0% 10%;
+    padding: 2% 0% 0% 5%;
     background-color: #323232;
 
 }
 .header_menu{
     display: flex;
-    gap: 80px;
-
+    gap: 70px;
+    
 
 }
+
 
 
 .haedre_menu_link{
@@ -52,6 +53,22 @@ body{
     text-decoration: none;
     
 
+}
+.log{
+    display:flexbox;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin: 0% 0% 0 50%;
+    padding: 0% 2% 2%;
+
+}
+.header_menu img{
+    width: 99%;
+    height: 99%;
+    
+   
+    
 }
 .posición{
     margin: 1% 1%;
