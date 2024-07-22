@@ -32,7 +32,7 @@ body{
 
 }
 .header{
-    padding: 2% 0% 0% 5%;
+    padding: 1% 0% 0% 1%;
     background-color: #323232;
 
 }
@@ -60,12 +60,12 @@ body{
     align-items: center;
     float: left;
     margin: 0% 0% 0 50%;
-    padding: 0% 2% 2%;
+    padding: 0% 1% 1%;
 
 }
 .header_menu img{
-    width: 99%;
-    height: 99%;
+    width: 80%;
+    height: 80%;
     
    
     
@@ -152,16 +152,17 @@ img{
     }
 
     .header{
-        padding: 4%;
+        padding: 1%;
     }
     .header_menu{
         justify-content:flex-start;
+        padding: 1%;
        
     }
     .log{
         display: flex;
         margin: 0% 0% 0 0%;
-        padding: 0% 2% 0% 0%;
+        padding: 0% 0% 0% 0%;
     
     }
     .header_menu img{
