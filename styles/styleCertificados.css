@@ -158,6 +158,16 @@ img{
         justify-content:flex-start;
        
     }
+    .log{
+        display: flex;
+        margin: 0% 0% 0 0%;
+        padding: 0% 2% 0% 0%;
+    
+    }
+    .header_menu img{
+        width: 130%;
+        height: 100%;
+    }
     /* .swiper-wrapper{
         width: auto;
         height: 30%;
